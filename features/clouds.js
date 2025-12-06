@@ -2,7 +2,7 @@ const cloudsContainer = document.createElement("div");
 cloudsContainer.id = "clouds-container";
 cloudsContainer.overflow = "hidden";
 document.querySelector("body").appendChild(cloudsContainer);
-const settings = JSON.parse(localStorage.getItem("settings"))
+const settings = JSON.parse(localStorage.getItem("old-portfolio-settings"))
 
 let cloudSpawnInterval = 1000;
 

@@ -21,7 +21,7 @@ const changeSpanStyleByRating = (span) => {
 
 ratingSpans.forEach(span => changeSpanStyleByRating(span))
 
-const settings = JSON.parse(localStorage.getItem("settings"))
+const settings = JSON.parse(localStorage.getItem("old-portfolio-settings"))
 console.log(settings.animationsEnabled)
 const addBgAnimation = () => document.querySelector("body").classList.add("animated")
 settings ? settings.animationsEnabled ? addBgAnimation() : '' : addBgAnimation()

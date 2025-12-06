@@ -1,5 +1,5 @@
 const body = document.querySelector("body");
-const settings = JSON.parse(localStorage.getItem("settings"));
+const settings = JSON.parse(localStorage.getItem("old-portfolio-settings"));
 
 const clearAndAdd = name => {
     body.classList.remove("orange");

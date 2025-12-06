@@ -18,7 +18,7 @@ const enableSaveButtonOnClick = element => {
 } 
 
 const saveData = () => {
-    localStorage.setItem("settings", JSON.stringify({
+    localStorage.setItem("old-portfolio-settings", JSON.stringify({
        cloudsEnabled: cloudsInput.checked,
        animationsEnabled: animationsInput.checked,
        colorPalette: currentColor,
@@ -26,7 +26,7 @@ const saveData = () => {
 }
 
 const loadData = () => {
-    const raw = localStorage.getItem("settings");
+    const raw = localStorage.getItem("old-portfolio-settings");
     return raw ? JSON.parse(raw) : null
 }
 
