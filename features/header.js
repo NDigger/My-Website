@@ -1,4 +1,4 @@
-const root = 'old/'
+const root = '/old/'
 
 const HTML = `
 <header>
