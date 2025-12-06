@@ -14,6 +14,7 @@ const HTML = `
                 <p class="header-category">Links</p><hr>
                 <a href="${root}drawings/index.html">My Drawings</a>
                 <a href="https://ndagger1.itch.io/" target="_blank">My Games</a>
+                <a href="/" target="_blank">My New Page</a>
             </div>
         </button>
     </nav>
